@@ -10,7 +10,7 @@
 header {
     background-color: rgb(18, 23, 65);
     height: 70px;
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;

@@ -49,4 +49,13 @@
     .menuicon {
         transition: transform .4s ease-in-out;
     }
+    .hero .title-hero {
+        font-size: 53px;
+        top: 35%;
+        left: 55%;
+    }
+    .hero .subtitle-hero {
+        top: 33%;
+        left: 58%;
+    }
 }
