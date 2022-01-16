@@ -10,36 +10,35 @@
     background: url("images/Superior.png") no-repeat bottom;
     background-size: cover;
     width: 100%;
-    height: 105%;
+    height: 110%;
 }
 
 .parallax-img:nth-child(2) {
     background: url("images/Inferior.png") no-repeat bottom;
     background-size: cover;
-    height: 105%;
+    height: 110%;
 }
 
-.title-hero {
+.texts .name {
     position: absolute;
     top: 42%;
-    left: 55%;
+    left: 54%;
     transform: translate(-58%, -30%);
-    font-weight: 600;
     letter-spacing: 0.14cm;
-    font-size: 70px;
+    font-size: 80px;
     color: white;
     text-transform: uppercase;
     text-align: center;
 }
 
-.subtitle-hero {
+.texts .subtitle {
     position: absolute;
-    top: 50%;
-    left: 56%;
-    transform: translate(-64%, 100%);
-    font-weight: 100;
+    left: 52%;
+    top: 60%;
+    padding-top: 30px;
+    transform: translate(-58%, -30%);
     letter-spacing: 0.14cm;
-    font-size: 43px;
+    font-size: 30px;
     color: white;
     text-transform: uppercase;
     text-align: center;

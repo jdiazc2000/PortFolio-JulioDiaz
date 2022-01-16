@@ -1,4 +1,26 @@
-@media (max-width:1000px) {
+@media (max-width:500px) {
+    .hero .texts h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:360px) {
+    .hero .texts h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:623px) {
+    .hero .texts h1 {
+        left: 58%;
+    }
+    .hero .texts h2 {
+        left: 56%;
+        top: 61%;
+    }
+}
+
+@media (max-width: 1024px) {
     body {
         padding-top: 60px
     }
@@ -50,15 +72,19 @@
         transition: transform .4s ease-in-out;
     }
     .hero {
-        top: -40px
+        top: -38px
     }
-    .hero .title-hero {
-        font-size: 53px;
-        top: 35%;
-        left: 55%;
+    .hero .texts h2 {
+        left: 56%;
+        top: 65%;
     }
-    .hero .subtitle-hero {
-        top: 33%;
-        left: 58%;
+}
+
+@media (max-width:280px) {
+    .hero .texts h1 {
+        font-size: 39px;
+    }
+    .logo {
+        font-size: 25px;
     }
 }

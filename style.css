@@ -98,7 +98,7 @@ nav {
 
 /* Contenido */
 
-.content {
+.content .content-body {
     padding-top: 50px;
     background-color: #090b3b;
     padding-left: 10%;
@@ -108,7 +108,7 @@ nav {
 }
 
 .content-body {
-    position: relative;
+    position: inherit;
 }
 
 
