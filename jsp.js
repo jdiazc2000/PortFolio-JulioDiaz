@@ -20,7 +20,7 @@ const text = document.querySelector(".content-body");
 
 window.addEventListener("scroll", function() {
     const scroll = window.pageYOffset;
-    background.style.top = scroll / 1.4 + "px";
+    background.style.top = scroll / 6.0 + "px";
     header.style.opacity = 1 - scroll / 300;
     headerinfo.style.opacity = 1 - scroll / 300;
     if (scroll > 100 && scroll < 300) {
