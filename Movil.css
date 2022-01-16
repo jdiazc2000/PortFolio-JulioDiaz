@@ -37,7 +37,8 @@
         background-color: #c9b7b665
     }
     .nav-toogle {
-        display: block
+        display: block;
+        margin-right: 5px;
     }
     .nav-menu_visible {
         left: 0
