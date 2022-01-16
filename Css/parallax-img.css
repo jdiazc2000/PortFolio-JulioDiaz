@@ -7,14 +7,14 @@
 }
 
 .parallax-img:nth-child(1) {
-    background: url("images/Superior.png") no-repeat bottom;
+    background: url("../images/Superior.png") no-repeat bottom;
     background-size: cover;
     width: 100%;
     height: 110%;
 }
 
 .parallax-img:nth-child(2) {
-    background: url("images/Inferior.png") no-repeat bottom;
+    background: url("../images/Inferior.png") no-repeat bottom;
     background-size: cover;
     height: 110%;
 }
