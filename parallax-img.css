@@ -10,12 +10,13 @@
     background: url("images/Superior.png") no-repeat bottom;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 105%;
 }
 
 .parallax-img:nth-child(2) {
     background: url("images/Inferior.png") no-repeat bottom;
     background-size: cover;
+    height: 105%;
 }
 
 .title-hero {
