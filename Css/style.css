@@ -40,7 +40,8 @@ nav {
 }
 
 .nav-link:hover {
-    background-color: #c9b7b665;
+    background-color: rgb(27, 34, 99);
+    ;
     transition: .5s
 }
 
@@ -79,6 +80,13 @@ nav {
     line-height: 60px;
     display: none;
     cursor: pointer
+}
+
+.Fox-IMG {
+    padding-left: 13%;
+    width: 80px;
+    height: 90px;
+    margin: -10px;
 }
 
 
