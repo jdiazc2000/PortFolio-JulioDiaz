@@ -93,34 +93,10 @@ nav {
 /* Nav */
 
 
-/* Portada */
-
-.hero {
-    height: 100vh;
-    width: 100%;
-    top: 0px;
-    position: relative;
-    z-index: -1;
-    background-color: rgb(18, 23, 65);
-}
-
-
-/* Portada */
-
-
 /* Contenido */
 
 #content {
-    padding-top: 50px;
-    background-color: #090b3b;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-    color: white
-}
-
-#content2 {
-    padding-top: 50px;
+    padding-top: 0px;
     background-color: #090b3b;
     padding-left: 10%;
     padding-right: 10%;
@@ -141,8 +117,8 @@ nav {
     position: inherit;
 }
 
-.content-body h2 {
-    font-size: 35px;
+.content-body h1 {
+    font-size: 40px;
 }
 
 .content-body p {
@@ -151,3 +127,96 @@ nav {
 
 
 /* Contenido */
+
+
+/* Tecnolo */
+
+.tecno-body {
+    padding-top: 5px;
+    background-color: #090b3b;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    display: grid;
+    gap: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.tecno-body div {
+    background-color: #0e1052;
+    border: solid white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.8);
+    transition: all 400ms ease;
+}
+
+.tecno-body img {
+    width: 120px;
+    height: 120px;
+}
+
+.tecno-body .html:hover {
+    box-shadow: 5px 5px 20px rgb(241, 101, 41);
+}
+
+.tecno-body .css img {
+    height: 100px;
+    width: 100px;
+}
+
+.tecno-body .css:hover {
+    box-shadow: 5px 5px 20px #1572b6;
+}
+
+.tecno-body .js img {
+    height: 100px;
+    width: 86px;
+}
+
+.tecno-body .js:hover {
+    box-shadow: 5px 5px 20px #e4bd00;
+}
+
+.tecno-body .ps img {
+    height: 120px;
+    width: 120px;
+}
+
+.tecno-body .ps:hover {
+    box-shadow: 5px 5px 20px #04b3dc;
+}
+
+.tecno-body .node img {
+    height: 120px;
+    width: 120px;
+}
+
+.tecno-body .node:hover {
+    box-shadow: 5px 5px 20px #689f63;
+}
+
+.tecno-body .react img {
+    height: 100px;
+    width: 100px;
+}
+
+.tecno-body .react:hover {
+    box-shadow: 5px 5px 20px #04d7f7;
+}
+
+#tecno h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    background-color: #090b3b;
+}
+
+
+/* Tecnolo */
