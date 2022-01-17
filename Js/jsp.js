@@ -12,6 +12,10 @@ navtoogle.addEventListener("click", () => {
     }
 })
 
+function closeMenu() {
+    document.querySelector(".nav-menu").className = "nav-menu";
+}
+
 //Portada Parallax//
 const header = document.querySelector(".texts");
 const background = document.querySelector(".parallax-img:nth-child(1)");

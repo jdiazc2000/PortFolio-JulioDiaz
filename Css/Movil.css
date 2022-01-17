@@ -41,14 +41,13 @@
         align-items: center;
         background-color: rgba(18, 23, 65, 0.986);
         position: fixed;
-        left: 0;
-        top: 69px;
+        bottom: 69px;
         width: 100%;
-        padding: 20px 0;
+        padding: 0px 0;
         height: calc(100% - 60px);
         overflow-y: auto;
-        left: 100%;
-        transition: left .5s
+        bottom: 100%;
+        transition: bottom .5s
     }
     .nav-menu-item {
         line-height: 70px
@@ -63,7 +62,7 @@
         margin-right: 5px;
     }
     .nav-menu_visible {
-        left: 0
+        bottom: 0
     }
     .nav-toogle:focus:not(:focus-visible) {
         outline: 0

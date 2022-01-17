@@ -24,9 +24,9 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link">Inicio</a></li>
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link">Sobre mi</a></li>
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link">Inicio</a></li>
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link">Sobre mi</a></li>
+                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#content" onclick="closeMenu()">Sobre mi</a></li>
+                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#content2" onclick="closeMenu()">Sobre mi2</a></li>
+                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#content3" onclick="closeMenu()">Sobre mi3</a></li>
             </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@
     <!-- Portada-->
 
     <!-- Contenido -->
-    <section class="content">
+    <section id="content">
         <article class="content-body">
             <h2>Sobre mi</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate quod tempora itaque earum. At necessitatibus repellendus corrupti animi, quisquam adipisci, culpa sunt sed eveniet perferendis possimus, veniam ipsum nesciunt. Velit
@@ -57,7 +57,18 @@
     </section>
     <!-- Contenido -->
 
-    <section class="content">
+    <section id="content2">
+        <article class="content-body">
+            <h2>Sobre mi</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate quod tempora itaque earum. At necessitatibus repellendus corrupti animi, quisquam adipisci, culpa sunt sed eveniet perferendis possimus, veniam ipsum nesciunt. Velit
+                molestias esse iure? Iste, perferendis! Id blanditiis ex officia. Necessitatibus, alias! Voluptatum, fuga cupiditate vitae amet sunt reprehenderit, temporibus tempore quae, adipisci impedit molestiae provident aliquam nam voluptates eius!
+                Aliquid nobis praesentium molestias doloremque ipsa! Hic nostrum quasi repellendus totam ut laborum sed eligendi corporis itaque, quis expedita, ad est in officia similique necessitatibus laboriosam laudantium dignissimos, perferendis
+                nam. Possimus deserunt aspernatur ad reprehenderit placeat velit corporis? Ratione, quas earum officiis, at rerum ipsum illo sunt, porro ea autem dolorum voluptate laudantium eligendi magnam repellat. Eum at culpa facere. Veniam repellendus
+                dolorum rerum veritatis consectetur commodi, quasi non, earum eligendi a quos error voluptates reiciendis blanditiis! Eos accusantium velit quisquam quas illo ipsum molestiae placeat laboriosam optio corporis. Magni?</p>
+        </article>
+    </section>
+
+    <section id="content3">
         <article class="content-body">
             <h2>Sobre mi</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate quod tempora itaque earum. At necessitatibus repellendus corrupti animi, quisquam adipisci, culpa sunt sed eveniet perferendis possimus, veniam ipsum nesciunt. Velit
@@ -69,6 +80,33 @@
     </section>
 
     <script src="Js/jsp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 </body>
 
 </html>
