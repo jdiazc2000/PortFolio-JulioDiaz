@@ -53,6 +53,12 @@
     text-align: center;
 }
 
+@media (max-height:639px) {
+    .texts .subtitle {
+        top: 65%;
+    }
+}
+
 
 /* Fade In */
 
