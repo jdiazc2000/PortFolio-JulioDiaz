@@ -44,7 +44,7 @@
         bottom: 69px;
         width: 100%;
         padding: 0px 0;
-        height: calc(100% - 70px);
+        height: calc(100% - 68px);
         overflow-y: auto;
         bottom: 100%;
         transition: bottom .5s
