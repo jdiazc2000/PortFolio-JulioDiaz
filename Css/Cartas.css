@@ -1,17 +1,21 @@
 #proyects {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
+a img {
+    padding-top: 3px;
+    width: 40px;
+    height: 40px;
+}
+
 .container {
-    position: relative;
-    height: 100px;
     width: 100xp;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0px;
+    background-color: #090b3b;
 }
 
 .container .card {
@@ -25,10 +29,12 @@
     transition: 0.3s ease-in-out;
     border: solid rgba(255, 255, 255, 0.904);
     border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.8);
 }
 
 .container .card:hover {
     height: 460px;
+    box-shadow: 1px 5px 20px rgba(244, 67, 54, 255);
 }
 
 .container .card .imgBx {
@@ -37,7 +43,6 @@
     height: 195px;
     top: 3px;
     left: 0px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .card .imgBx img {
