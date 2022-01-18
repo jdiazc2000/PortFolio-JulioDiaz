@@ -34,7 +34,7 @@ a img {
 
 .container .card:hover {
     height: 460px;
-    box-shadow: 1px 5px 20px rgba(244, 67, 54, 255);
+    box-shadow: 0px 3px 10px #f44336;
 }
 
 .container .card .imgBx {
@@ -43,6 +43,7 @@ a img {
     height: 195px;
     top: 3px;
     left: 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .card .imgBx img {
