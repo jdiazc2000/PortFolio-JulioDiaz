@@ -1,0 +1,68 @@
+#proyects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    height: 100px;
+    width: 100xp;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.container .card {
+    position: relative;
+    max-width: 300px;
+    height: 229px;
+    background-color: #3d3d3d;
+    margin: 10px 60px;
+    padding: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    border: solid rgba(255, 255, 255, 0.904);
+    border-radius: 5px;
+}
+
+.container .card:hover {
+    height: 460px;
+}
+
+.container .card .imgBx {
+    position: relative;
+    width: 300px;
+    height: 195px;
+    top: 3px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgBx img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content {
+    position: relative;
+    margin-top: -50px;
+    padding: 80px 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.1s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.fas .fa-door-open {
+    font-size: 500px
+}

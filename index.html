@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <link rel="stylesheet" href="Css/Movil.css">
     <link rel="stylesheet" href="Css/Portada.css">
+    <link rel="stylesheet" href="Css/Cartas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Luxurious+Roman&family=Montserrat:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
@@ -23,9 +24,9 @@
                 <i  class="fas fa-bars menuicon"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#content" onclick="closeMenu()">Sobre mi</a></li>
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#tecno" onclick="closeMenu()">Tecnologías</a></li>
-                <li class="nav-menu-item"><a style="cursor: pointer;" class="nav-link" href="#content3" onclick="closeMenu()">Sobre mi3</a></li>
+                <li class="nav-menu-item"><a class="nav-link" href="#content" onclick="closeMenu()">Sobre mi</a></li>
+                <li class="nav-menu-item"><a class="nav-link" href="#tecno" onclick="closeMenu()">Tecnologías</a></li>
+                <li class="nav-menu-item"><a class="nav-link" href="#proyects" onclick="closeMenu()">Proyectos</a></li>
             </ul>
         </nav>
     </header>
@@ -37,16 +38,17 @@
         <div class="parallax-img"></div>
 
         <div class="texts">
-            <h1 class="name">Julio Díaz Cortegana</h1>
+            <h1 class="title">Julio Díaz Cortegana</h1>
             <h2 class="subtitle">Front-end Developer</h2>
         </div>
     </section>
     <!-- Portada-->
 
+
     <!-- Contenido -->
+    <h1 class="titles">Sobre mi</h1>
     <section id="content">
         <article class="content-body">
-            <h1>Sobre mi</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate quod tempora itaque earum. At necessitatibus repellendus corrupti animi, quisquam adipisci, culpa sunt sed eveniet perferendis possimus, veniam ipsum nesciunt. Velit
                 molestias esse iure? Iste, perferendis! Id blanditiis ex officia. Necessitatibus, alias! Voluptatum, fuga cupiditate vitae amet sunt reprehenderit, temporibus tempore quae, adipisci impedit molestiae provident aliquam nam voluptates eius!
                 Aliquid nobis praesentium molestias doloremque ipsa! Hic nostrum quasi repellendus totam ut laborum sed eligendi corporis itaque, quis expedita, ad est in officia similique necessitatibus laboriosam laudantium dignissimos, perferendis
@@ -56,9 +58,9 @@
     </section>
     <!-- Contenido -->
 
-    <!-- Tecnolo */ -->
+    <!-- Tecnolo -->
+    <h1 class="titles">Tecnologías</h1>
     <section id="tecno">
-        <h1>Tecnologías</h1>
         <article class="tecno-body">
             <div class="html">
                 <img src="images/img-tecno/HTML.png" alt="HTML">
@@ -80,47 +82,91 @@
             </div>
         </article>
     </section>
-    <!-- Tecnolo */ -->
+    <!-- Tecnolo  -->
 
-    <section id="content3">
-        <article class="content-body">
-            <h2>Sobre mi</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi voluptate quod tempora itaque earum. At necessitatibus repellendus corrupti animi, quisquam adipisci, culpa sunt sed eveniet perferendis possimus, veniam ipsum nesciunt. Velit
-                molestias esse iure? Iste, perferendis! Id blanditiis ex officia. Necessitatibus, alias! Voluptatum, fuga cupiditate vitae amet sunt reprehenderit, temporibus tempore quae, adipisci impedit molestiae provident aliquam nam voluptates eius!
-                Aliquid nobis praesentium molestias doloremque ipsa! Hic nostrum quasi repellendus totam ut laborum sed eligendi corporis itaque, quis expedita, ad est in officia similique necessitatibus laboriosam laudantium dignissimos, perferendis
-                nam. Possimus deserunt aspernatur ad reprehenderit placeat velit corporis? Ratione, quas earum officiis, at rerum ipsum illo sunt, porro ea autem dolorum voluptate laudantium eligendi magnam repellat. Eum at culpa facere. Veniam repellendus
-                dolorum rerum veritatis consectetur commodi, quasi non, earum eligendi a quos error voluptates reiciendis blanditiis! Eos accusantium velit quisquam quas illo ipsum molestiae placeat laboriosam optio corporis. Magni?</p>
-        </article>
-    </section>
+    <!-- Proyects  -->
+    <h1 class="titles">Proyectos</h1>
+    <section id="proyects">
+        <div class="container">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex">
+                </div>
+                <div class="content">
+                    <h2>PokeDex</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur non hic possimus, saepe amet odit labore dignissimos, autem, nesciunt fuga voluptatibus quibusdam corporis numquam enim facere voluptate excepturi tempore.</p>
+                    <a href="https://pokedex-juliodiaz.netlify.app/" target="_blank">
+                        <img src="images/img-proyects/enter.png" style="width: 30px; height: 30px; cursor: pointer;" alt="pageindex">
+                    </a>
+                    <a href="https://github.com/jdiazc2000/PokeDex" target="_blank">
+                        <img src="images/img-proyects/github.png" style="width: 30px; height: 30px;" alt="pagegithub">
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex2">
+                </div>
+                <div class="content">
+                    <h2>PokeDex</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur non hic possimus, saepe amet odit labore dignissimos, autem, nesciunt fuga voluptatibus quibusdam corporis numquam enim facere voluptate excepturi tempore.</p>
+                    <a href="https://pokedex-juliodiaz.netlify.app/" target="_blank">
+                        <img src="images/img-proyects/enter.png" style="width: 30px; height: 30px; cursor: pointer;" alt="pageindex">
+                    </a>
+                    <a href="https://github.com/jdiazc2000/PokeDex" target="_blank">
+                        <img src="images/img-proyects/github.png" style="width: 30px; height: 30px;" alt="pagegithub">
+                    </a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex3">
+                </div>
+                <div class="content">
+                    <h2>PokeDex</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure aspernatur non hic possimus, saepe amet odit labore dignissimos, autem, nesciunt fuga voluptatibus quibusdam corporis numquam enim facere voluptate excepturi tempore.</p>
+                    <a href="https://pokedex-juliodiaz.netlify.app/" target="_blank">
+                        <img src="images/img-proyects/enter.png" style="width: 30px; height: 30px; cursor: pointer;" alt="pageindex">
+                    </a>
+                    <a href="https://github.com/jdiazc2000/PokeDex" target="_blank">
+                        <img src="images/img-proyects/github.png" style="width: 30px; height: 30px;" alt="pagegithub">
+                    </a>
+                </div>
+            </div>
+        </div>
 
-    <script src="Js/jsp.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
 
-                    // Store hash
-                    var hash = this.hash;
+        <!-- Proyects  -->
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
+        <script src="Js/jsp.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                // Add smooth scrolling to all links
+                $("a").on('click', function(event) {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800, function() {
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
             });
-        });
-    </script>
+        </script>
 </body>
 
 </html>

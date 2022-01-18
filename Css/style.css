@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(18, 23, 65);
+    background-color: #090b3b;
 }
 
 
@@ -41,8 +41,7 @@ nav {
 
 .nav-link:hover {
     background-color: rgb(27, 34, 99);
-    ;
-    transition: .5s
+    transition: .5s;
 }
 
 .logo {
@@ -95,6 +94,26 @@ nav {
 
 /* Contenido */
 
+.titles {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #090b3b;
+    text-transform: uppercase;
+}
+
+#titles {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #090b3b;
+    text-transform: uppercase;
+}
+
 #content {
     padding-top: 0px;
     background-color: #090b3b;
@@ -118,11 +137,12 @@ nav {
 }
 
 .content-body h1 {
-    font-size: 40px;
+    font-size: 45px;
+    text-transform: uppercase;
 }
 
 .content-body p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -132,7 +152,7 @@ nav {
 /* Tecnologías */
 
 .tecno-body {
-    padding-top: 5px;
+    padding-top: 10px;
     background-color: #090b3b;
     padding-left: 10%;
     padding-right: 10%;
@@ -158,6 +178,16 @@ nav {
 .tecno-body img {
     width: 120px;
     height: 120px;
+}
+
+#tecno h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    background-color: #090b3b;
+    text-transform: uppercase;
 }
 
 .tecno-body .html:hover {
@@ -209,14 +239,16 @@ nav {
     box-shadow: 5px 5px 20px #04d7f7;
 }
 
-#tecno h1 {
-    font-size: 40px;
-    padding-bottom: 10px;
-    text-align: center;
-    padding-top: 30px;
-    color: white;
-    background-color: #090b3b;
+
+/* Tecnolo */
+
+
+/* Proyectos */
+
+a img {
+    width: 30px;
+    height: 30px;
 }
 
 
-/* Tecnolo */
+/* Proyectos */

@@ -28,7 +28,7 @@
     height: 100%;
 }
 
-.texts .name {
+.texts .title {
     position: absolute;
     top: 42%;
     left: 54%;
@@ -53,9 +53,15 @@
     text-align: center;
 }
 
-@media (max-height:639px) {
+@media (max-height:632px) {
     .texts .subtitle {
-        top: 65%;
+        top: 63%;
+    }
+}
+
+@media (max-height:504px) {
+    .texts .subtitle {
+        top: 66%;
     }
 }
 
