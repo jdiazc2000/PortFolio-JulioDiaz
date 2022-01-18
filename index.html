@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +8,7 @@
     <link rel="stylesheet" href="Css/Movil.css">
     <link rel="stylesheet" href="Css/Portada.css">
     <link rel="stylesheet" href="Css/Cartas.css">
+    <link rel="stylesheet" href="Css/Formulario.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Luxurious+Roman&family=Montserrat:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
                 <li class="nav-menu-item"><a class="nav-link" href="#SobreMi-Title" onclick="closeMenu()">Sobre mi</a></li>
                 <li class="nav-menu-item"><a class="nav-link" href="#tecno" onclick="closeMenu()">Tecnologías</a></li>
                 <li class="nav-menu-item"><a class="nav-link" href="#SobreMi-Proyectos" onclick="closeMenu()">Proyectos</a></li>
+                <li class="nav-menu-item"><a class="nav-link" href="#Contac-Title" onclick="closeMenu()">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -89,7 +90,7 @@
     <section class="proyects">
         <div class="container">
             <div class="card">
-                <div class="imgBx">
+                <div class="imgs">
                     <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex">
                 </div>
                 <div class="content">
@@ -101,7 +102,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="imgBx">
+                <div class="imgs">
                     <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex2">
                 </div>
                 <div class="content">
@@ -113,7 +114,7 @@
                 </div>
             </div>
             <div class="card">
-                <div class="imgBx">
+                <div class="imgs">
                     <img src="images/img-proyects/Pokeball.jpg" alt="PokeDex3">
                 </div>
                 <div class="content">
@@ -125,48 +126,83 @@
                 </div>
             </div>
         </div>
+    </section>
+    <!-- Proyects  -->
 
-        <!-- Proyects  -->
+    <!-- Contact -->
+    <h1 class="titles" id="Contac-Title">Contacto</h1>
+    <section class="contact">
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form id="contacto" action="https://formspree.io/f/xpzbqljj" method="POST">
+                    <p>
+                        <label>Nombre:</label>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        <label>Celular:</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Correo:</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Asunto:</label>
+                        <input type="text" name="matter">
+                    </p>
+                    <p class="large">
+                        <label>Mensaje:</label>
+                        <textarea type="text" name="message" rows="3"></textarea>
+                    </p>
+                    <p class="large">
+                        <button type="submit">
+                                Enviar
+                            </button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <contact class="info">
+            <h4>Mas Información</h4>
+            <ul>
+                <li><i class="fab fa-linkedin"></i> Julio Díaz Cortegana</li>
+                <li><i class="fas fa-mobile"></i> +51 997 621 217</li>
+                <li><i class="fas fa-envelope"></i> Julio_Diaz_Cortegana@hotmail.com</li>
+            </ul>
+        </contact>
+    </section>
+    <!-- Contact  -->
 
-        <!-- Tecnolo -->
-        <h1 class="titles">Contacto</h1>
-        <section id="tecno">
-            <article class="tecno-body">
-                <div class="html">
-                    <img src="images/img-tecno/HTML.png" alt="HTML">
-                </div>
-            </article>
-        </section>
-        <!-- Tecnolo  -->
+    <script src="Js/jsp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-        <script src="Js/jsp.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                // Add smooth scrolling to all links
-                $("a").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-                    // Make sure this.hash has a value before overriding default behavior
-                    if (this.hash !== "") {
-                        // Prevent default anchor click behavior
-                        event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
 
-                        // Store hash
-                        var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
 
-                        // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function() {
-
-                            // Add hash (#) to URL when done scrolling (default click behavior)
-                            window.location.hash = hash;
-                        });
-                    } // End if
-                });
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
             });
-        </script>
+        });
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

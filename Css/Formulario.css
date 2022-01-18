@@ -1,0 +1,126 @@
+p label {
+    color: white;
+}
+
+#EnviarCorreoLink {
+    display: none;
+}
+
+.info {
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#Contac-Title {
+    padding-bottom: 17px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contact {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 15px rgba(255, 255, 255, 0.8);
+    background-color: rgba(38, 38, 38, 255);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+form input {
+    font-size: 20px;
+}
+
+.contact:hover {
+    box-shadow: 0px 1px 15px rgb(190, 58, 58);
+    transition: 0.2s ease-in-out;
+}
+
+.contact-form {
+    padding: 1em;
+    background-color: #383838;
+    border-radius: 2px;
+}
+
+.contact-form form .large {
+    grid-column: 1/3;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.contact-form form button {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover {
+    background-color: rgb(207, 64, 64);
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.info h4,
+.info ul,
+.info p {
+    text-align: left;
+    margin: 0 0 1em 0;
+    font-size: 20px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.info ul li {
+    padding: .3em;
+}
+
+
+/* Pantalla grande */
+
+@media(max-width: 1205px) {
+    .contact {
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 30px 30px 30px;
+    }
+    #contacto {
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+    .info h4,
+    .info ul,
+    .info p {
+        text-align: center;
+    }
+}
