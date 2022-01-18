@@ -16,7 +16,7 @@ function closeMenu() {
     document.querySelector(".nav-menu").className = "nav-menu";
 }
 
-//Portada Parallax//
+//Banner Parallax//
 const header = document.querySelector(".texts");
 const background = document.querySelector(".parallax-img:nth-child(1)");
 const text = document.querySelector(".content-body");
@@ -31,7 +31,7 @@ window.addEventListener("scroll", function() {
 });
 
 
-//Contacto Form//
+//Contact Form//
 const $form = document.querySelector("#contacto");
 
 $form.addEventListener('submit', handleSubmit)

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,6 @@
     <link rel="stylesheet" href="Css/Portada.css">
     <link rel="stylesheet" href="Css/Cartas.css">
     <link rel="stylesheet" href="Css/Formulario.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Luxurious+Roman&family=Montserrat:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a555f75e92.js" crossorigin="anonymous"></script>
 </head>
 
@@ -137,23 +135,23 @@
                 <form id="contacto" action="https://formspree.io/f/xpzbqljj" method="POST">
                     <p>
                         <label>Nombre:</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" title="name">
                     </p>
                     <p>
                         <label>Celular:</label>
-                        <input type="tel" name="phone">
+                        <input type="tel" name="phone" title="phone">
                     </p>
                     <p>
                         <label>Correo:</label>
-                        <input type="email" name="email">
+                        <input type="email" name="email" title="email">
                     </p>
                     <p>
                         <label>Asunto:</label>
-                        <input type="text" name="matter">
+                        <input type="text" name="matter" title="matter">
                     </p>
                     <p class="large">
                         <label>Mensaje:</label>
-                        <textarea type="text" name="message" rows="3"></textarea>
+                        <textarea type="text" name="message" rows="3" title="nessage"></textarea>
                     </p>
                     <p class="large">
                         <button type="submit">
@@ -164,10 +162,10 @@
             </div>
         </div>
         <contact class="info">
-            <h4>Mas Información</h4>
+            <h4>Más información</h4>
             <ul>
                 <li><i class="fab fa-linkedin"></i> Julio Díaz Cortegana</li>
-                <li><i class="fas fa-mobile"></i> +51 997 621 217</li>
+                <li><i class="fas fa-mobile-alt"></i> +51 997 621 217</li>
                 <li><i class="fas fa-envelope"></i> Julio_Diaz_Cortegana@hotmail.com</li>
             </ul>
         </contact>
@@ -202,7 +200,7 @@
             });
         });
     </script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
