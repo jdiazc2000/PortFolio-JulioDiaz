@@ -63,6 +63,12 @@ form input {
     border-bottom: 1px solid white;
 }
 
+.contact-form form textarea:hover,
+.contact-form form input:hover {
+    background-color: rgb(58, 58, 58);
+    transition: 0.2s ease-in-out;
+}
+
 .contact-form form textarea {
     font-size: 20px;
 }
