@@ -22,10 +22,11 @@ p label {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    box-shadow: 0px 1px 15px rgba(255, 255, 255, 0.8);
     background-color: rgba(38, 38, 38, 255);
     display: grid;
     grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    border: solid white;
 }
 
 form input {
@@ -33,14 +34,14 @@ form input {
 }
 
 .contact:hover {
-    box-shadow: 0px 1px 15px rgb(190, 58, 58);
+    box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.8);
     transition: 0.2s ease-in-out;
 }
 
 .contact-form {
     padding: 1em;
     background-color: #383838;
-    border-radius: 2px;
+    border-radius: 10px;
 }
 
 .contact-form form .large {
