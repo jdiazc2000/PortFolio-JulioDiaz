@@ -207,22 +207,22 @@ nav {
     box-shadow: 5px 5px 20px #e4bd00;
 }
 
-.tecno-body .ps img {
+.tecno-body .rsp img {
     height: 120px;
     width: 120px;
 }
 
-.tecno-body .ps:hover {
-    box-shadow: 5px 5px 20px #04b3dc;
+.tecno-body .rsp:hover {
+    box-shadow: 5px 5px 20px #ffffff;
 }
 
-.tecno-body .node img {
+.tecno-body .sass img {
     height: 120px;
     width: 120px;
 }
 
-.tecno-body .node:hover {
-    box-shadow: 5px 5px 20px #689f63;
+.tecno-body .sass:hover {
+    box-shadow: 5px 5px 20px #cd6799;
 }
 
 .tecno-body .react img {

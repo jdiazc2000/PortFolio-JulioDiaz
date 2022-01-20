@@ -140,7 +140,6 @@ form input {
 .info ul {
     list-style: none;
     padding: 0;
-    padding-bottom: 15px;
 }
 
 .info ul li {
@@ -149,6 +148,13 @@ form input {
 
 
 /* Pantalla grande */
+
+@media(max-width: 404px) {
+    .info ul li {
+        white-space: nowrap;
+        overflow: scroll;
+    }
+}
 
 @media(max-width: 1205px) {
     .contact {
