@@ -6,7 +6,7 @@ const navmenu = document.querySelector(".nav-menu");
 navtoogle.addEventListener("click", () => {
     navmenu.classList.toggle("nav-menu_visible");
     if (navmenu.classList.contains("nav-menu_visible")) {
-        document.querySelector('.menuicon').style.transform = 'rotate(180deg)'
+        document.querySelector('.menuicon').style.transform = 'rotate(90deg)'
     } else {
         document.querySelector('.menuicon').style.transform = 'rotate(0deg)'
     }
@@ -14,6 +14,7 @@ navtoogle.addEventListener("click", () => {
 
 function closeMenu() {
     document.querySelector(".nav-menu").className = "nav-menu";
+    document.querySelector('.menuicon').style.transform = 'rotate(0deg)'
 }
 
 //Banner Parallax//
@@ -33,11 +34,18 @@ window.addEventListener("scroll", function() {
 
 //Contact Form//
 const $form = document.querySelector("#contacto");
-
+const button = document.querySelector(".button");
 $form.addEventListener('submit', handleSubmit)
+
 
 async function handleSubmit(event) {
     event.preventDefault()
+    button.classList.toggle("button_loading");
+    button.style.backgroundColor = 'rgb(207, 64, 64)';
+    button.style.color = 'white';
+    button.style.border = 'solid white';
+    button.style.boxShadow = '0px 1px 20px rgba(255, 255, 255, 0.8)';
+    button.style.transition = '.2s ease-in-out';
     const form = new FormData(this)
     const response = await fetch(this.action, {
         method: this.method,
@@ -47,17 +55,29 @@ async function handleSubmit(event) {
         }
     })
     if (response.ok) {
+        button.classList.remove("button_loading");
         this.reset();
         Swal.fire(
             'Correo enviado con éxito',
             '¡Gracias por ver mi portafolio, intentaré comunicarme contigo lo más pronto posible :)!',
             'success'
         )
+        button.style.backgroundColor = '';
+        button.style.color = '';
+        button.style.border = '';
+        button.style.boxShadow = '';
+        button.style.transition = '.2s ease-in-out';
     } else {
+        button.classList.remove("button_loading");
         Swal.fire(
             'Error!',
             'Ingrese datos en el formulario.',
             'error'
         )
+        button.style.backgroundColor = '';
+        button.style.color = '';
+        button.style.border = '';
+        button.style.boxShadow = '';
+        button.style.transition = '.2s ease-in-out';
     }
 }

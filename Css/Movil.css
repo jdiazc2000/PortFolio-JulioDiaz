@@ -2,11 +2,23 @@
     .hero .texts h1 {
         font-size: 60px;
     }
+    .menuicon {
+        transition: transform .4s ease-in-out;
+    }
+    .contact-form form button {
+        width: 102.5%;
+    }
 }
 
 @media (max-width:375px) {
     .hero .texts h1 {
         font-size: 50px;
+    }
+    .menuicon {
+        transition: transform .4s ease-in-out;
+    }
+    .contact-form form button {
+        width: 102.5%;
     }
 }
 
@@ -18,11 +30,20 @@
         left: 56%;
         top: 61%;
     }
+    .menuicon {
+        transition: transform .4s ease-in-out;
+    }
+    .contact-form form button {
+        width: 102.5%;
+    }
 }
 
 @media (max-width:1024px) {
     body {
         padding-top: 60px
+    }
+    .contact-form form button {
+        width: 102.5%;
     }
     header {
         height: 70px;
@@ -85,5 +106,8 @@
     }
     .logo {
         font-size: 25px;
+    }
+    .menuicon {
+        transition: transform .4s ease-in-out;
     }
 }
