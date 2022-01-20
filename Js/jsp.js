@@ -70,7 +70,7 @@ async function handleSubmit(event) {
     } else {
         button.classList.remove("button_loading");
         Swal.fire(
-            'Error!',
+            'Error',
             'Ingrese datos en el formulario.',
             'error'
         )
