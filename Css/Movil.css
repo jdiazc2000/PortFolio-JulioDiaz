@@ -10,6 +10,24 @@
         }
     }
     
+    @media (max-height:508px) {
+        .hero .texts h1 {
+            font-size: 60px;
+        }
+    }
+    
+    @media (max-height:393px) {
+        .hero .texts {
+            margin-bottom: -55px;
+        }
+    }
+    
+    @media (max-height:375px) {
+        .hero .texts .subtitle {
+            margin-top: 30px;
+        }
+    }
+    
     @media (max-width:375px) {
         .hero .texts h1 {
             font-size: 50px;
