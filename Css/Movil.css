@@ -83,7 +83,8 @@
             margin-right: 5px;
         }
         .nav-menu_visible {
-            bottom: 0
+            bottom: 0;
+            z-index: 1;
         }
         .nav-toogle:focus:not(:focus-visible) {
             outline: 0

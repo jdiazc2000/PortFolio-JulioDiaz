@@ -4,7 +4,7 @@
 }
 
 a img {
-    padding-top: 3px;
+    padding-top: 10px;
     width: 40px;
     height: 40px;
 }
@@ -31,23 +31,29 @@ a img {
     border-radius: 5px;
 }
 
+
+/* Tamaño al abrir la carta */
+
 .container .card:hover {
-    height: 465px;
+    height: 520px;
     box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.8);
 }
+
+
+/* Tamaño al abrir la carta */
 
 .container .card .imgs {
     position: relative;
     width: 300px;
     height: 195px;
-    top: 3px;
+    top: 0px;
     left: 0px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .imgs img {
     width: 300px;
-    height: 225px;
+    height: 229px;
 }
 
 .container .card .imgs img {
@@ -66,13 +72,13 @@ a img {
     transition: 0.1s ease-in-out;
 }
 
+.container .card .content p {
+    font-size: 18px;
+}
+
 .container .card:hover .content {
     visibility: visible;
     opacity: 1;
     margin-top: -40px;
     transition-delay: 0.3s;
-}
-
-.fas .fa-door-open {
-    font-size: 500px
 }

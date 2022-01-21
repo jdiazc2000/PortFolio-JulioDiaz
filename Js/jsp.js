@@ -7,14 +7,17 @@ navtoogle.addEventListener("click", () => {
     navmenu.classList.toggle("nav-menu_visible");
     if (navmenu.classList.contains("nav-menu_visible")) {
         document.querySelector('.menuicon').style.transform = 'rotate(90deg)'
+        document.querySelector('body').style.overflowY = 'hidden'
     } else {
         document.querySelector('.menuicon').style.transform = 'rotate(0deg)'
+        document.querySelector('body').style.overflowY = 'scroll'
     }
 })
 
 function closeMenu() {
     document.querySelector(".nav-menu").className = "nav-menu";
     document.querySelector('.menuicon').style.transform = 'rotate(0deg)'
+    document.querySelector('body').style.overflowY = 'scroll'
 }
 
 //Banner Parallax//
@@ -26,9 +29,6 @@ window.addEventListener("scroll", function() {
     const scroll = window.pageYOffset;
     background.style.top = scroll / 3.0 + "px";
     header.style.opacity = 1 - scroll / 400;
-    if (scroll > 100 && scroll < 300) {
-        text.style.bottom = scroll / 2 + "px";
-    }
 });
 
 
