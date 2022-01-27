@@ -1,4 +1,5 @@
 function closeMenu() { document.querySelector(".nav-menu").className = "nav-menu", document.querySelector(".menuicon").style.transform = "rotate(0deg)", document.querySelector("body").style.overflowY = "scroll" }
+
 async function handleSubmit(t) {
     t.preventDefault(), button.classList.toggle("button_loading"), button.style.backgroundColor = "rgb(207, 64, 64)", button.style.color = "white", button.style.border = "solid white", button.style.boxShadow = "0px 1px 20px rgba(255, 255, 255, 0.8)", button.style.transition = ".2s ease-in-out";
     const e = new FormData(this),
