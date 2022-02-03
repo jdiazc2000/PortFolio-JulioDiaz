@@ -1,1 +1,144 @@
-*{margin:0;padding:0;font-family:Cabin,sans-serif}body{background-color:#0a0b3f}header{background-color:#121741;height:70px;position:absolute;width:100%;top:0;left:0;box-shadow:0 5px 5px 0 rgba(0,0,0,.2)}nav{display:flex;justify-content:space-between;color:#fff;text-decoration:none;margin:0 auto;box-shadow:0 5px 5px 0 #121741;height:70px}.nav-link{color:#fff;text-decoration:none;padding:8px 12px;border-radius:5px;font-weight:700}.nav-link:hover{background-color:#1b2263;transition:.5s}.logo{color:#fff;font-size:30px;font-weight:700;padding:0 40px;line-height:80px;margin-left:10%;text-decoration:none;width:max-content;line-height:70px}.nav-menu{display:flex;margin-right:15%;list-style:none}.nav-menu-item{font-size:18px;margin:0 19px;line-height:70px;text-transform:uppercase;width:max-content}.nav-toogle{color:#fff;background:0 0;border:none;font-size:30px;padding:0 20px;line-height:60px;display:none;cursor:pointer}.Fox-IMG{padding-left:13%;width:80px;height:90px;margin:-10px}.titles{font-family:Jura,sans-serif;font-size:45px;padding-bottom:30px;text-align:center;padding-top:20px;color:#fff;background-color:#0a0b3f;text-transform:uppercase}.contenido{padding-top:0;background-color:#0a0b3f;padding-left:10%;padding-right:10%;text-align:center;color:#fff}.contenido .content-body model-viewer{width:60%;height:435px;float:left;padding-top:20px;--poster-color:transparent}.contenido .content-body p{font-size:37px;padding-bottom:50px}.reveal{position:relative;transform:translateY(20px);opacity:0;transition:all 1s ease}.reveal.active{transform:translateY(0);opacity:1}.content-body{position:inherit}.content-body h1{font-size:45px;text-transform:uppercase}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cabin, sans-serif
+}
+
+body {
+    background-color: #0a0b3f
+}
+
+header {
+    background-color: #121741;
+    height: 70px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    box-shadow: 0 5px 5px 0 #121741;
+    height: 70px
+}
+
+nav img {
+    filter: invert(1);
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: 700
+}
+
+.nav-link:hover {
+    background-color: #1b2263;
+    transition: .5s
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 40px;
+    line-height: 80px;
+    margin-left: 10%;
+    text-decoration: none;
+    width: max-content;
+    line-height: 70px
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 15%;
+    list-style: none
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 19px;
+    line-height: 70px;
+    text-transform: uppercase;
+    width: max-content
+}
+
+.nav-toogle {
+    color: #fff;
+    background: 0 0;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer
+}
+
+.Fox-IMG {
+    padding-left: 13%;
+    width: 80px;
+    height: 90px;
+    margin: -10px
+}
+
+.titles {
+    font-family: Jura, sans-serif;
+    font-size: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    background-color: #0a0b3f;
+    text-transform: uppercase
+}
+
+.contenido {
+    padding-top: 0;
+    background-color: #0a0b3f;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: #fff
+}
+
+.contenido .content-body model-viewer {
+    width: 60%;
+    height: 435px;
+    float: left;
+    padding-top: 20px;
+    --poster-color: transparent
+}
+
+.contenido .content-body p {
+    font-size: 37px;
+    padding-bottom: 50px
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 1s ease
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1
+}
+
+.content-body {
+    position: inherit
+}
+
+.content-body h1 {
+    font-size: 45px;
+    text-transform: uppercase
+}
