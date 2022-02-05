@@ -1,1 +1,94 @@
-.tecno-body{padding-top:10px;padding-left:10%;padding-right:10%;padding-bottom:10px;background-color:#0a0b3f;text-align:center;display:grid;gap:13px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.tecno-body div{background-color:#0a0b3f;border:solid #fff;height:120px;display:flex;justify-content:center;align-items:center;border-radius:5px;overflow:hidden;box-shadow:0 1px 10px rgba(255,255,255,.8);transition:all .4s ease}.tecno-body img{width:120px;height:120px}#tecno h1{font-size:45px;padding-bottom:20px;text-align:center;padding-top:20px;color:#fff;background-color:#090b3b;text-transform:uppercase}.tecno-body .html:hover{border:solid #f16529;box-shadow:5px 5px 20px #f16529}.tecno-body .css img{height:100px;width:100px}.tecno-body .css:hover{border:solid #1572b6;box-shadow:5px 5px 20px #1572b6}.tecno-body .js img{height:100px;width:86px}.tecno-body .js:hover{border:solid #e4bd00;box-shadow:5px 5px 20px #e4bd00}.tecno-body .sass img{height:120px;width:120px}.tecno-body .sass:hover{border:solid #cd6799;box-shadow:5px 5px 20px #cd6799}.tecno-body .react img{height:100px;width:180px}.tecno-body .react:hover{border:solid #04d7f7;box-shadow:5px 5px 20px #04d7f7}.tecno-body .git img{height:110px;width:120px}.tecno-body .git:hover{border:solid #ee5132;box-shadow:5px 5px 20px #ee5132}
+.tecno-body {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10px;
+    background-color: #0a0b3f;
+    text-align: center;
+    display: grid;
+    gap: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+}
+
+.tecno-body div {
+    background-color: #0a0b3f;
+    border: solid #fff;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px rgba(255, 255, 255, .8);
+    transition: all .4s ease
+}
+
+.tecno-body img {
+    width: 120px;
+    height: 120px
+}
+
+#tecno h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    background-color: #090b3b;
+    text-transform: uppercase
+}
+
+.tecno-body .html:hover {
+    border: solid #f16529;
+    box-shadow: 5px 5px 20px #f16529
+}
+
+.tecno-body .css img {
+    height: 100px;
+    width: 100px
+}
+
+.tecno-body .css:hover {
+    border: solid #1572b6;
+    box-shadow: 5px 5px 20px #1572b6
+}
+
+.tecno-body .js img {
+    height: 100px;
+    width: 86px
+}
+
+.tecno-body .js:hover {
+    border: solid #e4bd00;
+    box-shadow: 5px 5px 20px #e4bd00
+}
+
+.tecno-body .sass img {
+    height: 120px;
+    width: 120px
+}
+
+.tecno-body .sass:hover {
+    border: solid #cd6799;
+    box-shadow: 5px 5px 20px #cd6799
+}
+
+.tecno-body .react img {
+    height: 80px;
+    width: 180px
+}
+
+.tecno-body .react:hover {
+    border: solid #04d7f7;
+    box-shadow: 5px 5px 20px #04d7f7
+}
+
+.tecno-body .git img {
+    height: 110px;
+    width: 120px
+}
+
+.tecno-body .git:hover {
+    border: solid #ee5132;
+    box-shadow: 5px 5px 20px #ee5132
+}
