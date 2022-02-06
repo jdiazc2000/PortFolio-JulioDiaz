@@ -111,10 +111,8 @@ nav img {
 
 .contenido .content-body img {
     width: 60%;
-    height: 435px;
+    height: 500px;
     float: left;
-    padding-top: 20px;
-    --poster-color: transparent
 }
 
 .contenido .content-body p {

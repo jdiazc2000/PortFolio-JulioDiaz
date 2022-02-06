@@ -56,12 +56,18 @@
     }
 }
 
-@media (max-width:1897px) {
+@media (max-width:1874px) {
     .contenido .content-body img {
-        width: 100%;
+        margin-left: 5%;
+        margin-right: 20%;
+        padding-left: 15%;
+        width: 60%;
         height: 100%;
         padding-bottom: 0px;
         margin-top: -65px;
+    }
+    .contenido .content-body p {
+        font-size: 28px
     }
 }
 
@@ -69,12 +75,17 @@
     .contact-form form button {
         width: 102.5%
     }
+    .contenido .content-body img {
+        margin-left: -5%;
+        margin-right: 20%;
+        padding-left: 15%;
+        width: 80%;
+        height: 100%;
+        margin-top: -40px;
+    }
     header {
         height: 70px;
         box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2)
-    }
-    .contenido .content-body p {
-        font-size: 28px
     }
     .logo {
         font-size: 30px;
