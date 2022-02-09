@@ -89,6 +89,8 @@
 }
 
 .proyects-tecno span:nth-child(1) {
+    position: relative;
+    left: -2px;
     border:  3px solid white;
     padding-left: 5px;
     padding-right: 6px;
@@ -116,6 +118,8 @@
 
 
 .proyects-tecno span:nth-child(3) {
+    position: relative;
+    right: -2px;
     border:  3px solid white;
     padding-left: 5px;
     padding-right: 6px;
