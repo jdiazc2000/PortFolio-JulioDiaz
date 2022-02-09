@@ -74,13 +74,23 @@
 }
 
 .tecno-body .react img {
-    height: 80px;
-    width: 150px
+    height: 100px;
+    width: 180px
 }
 
 .tecno-body .react:hover {
     border: solid #04d7f7;
     box-shadow: 5px 5px 20px #04d7f7
+}
+
+.tecno-body .bootstrap img {
+    height: 170px;
+    width: 170px
+}
+
+.tecno-body .bootstrap:hover {
+    border: solid #7952b3;
+    box-shadow: 5px 5px 20px #7952b3
 }
 
 .tecno-body .git img {
