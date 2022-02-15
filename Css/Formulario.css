@@ -134,12 +134,11 @@ form input {
 .info ul {
     text-align: left;
     margin: 0 0 1em 0;
-    font-size: 20px
+    font-size: 19px
 }
 
 .info ul {
     list-style: none;
-    margin-left: -6px;
 }
 
 .info ul li {
@@ -157,7 +156,6 @@ form input {
     .contact {
         display: block;
         grid-template-columns: 1fr 1fr;
-        margin: 0 30px 30px 30px
     }
     #contacto {
         margin-left: -10px;
