@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Portafolio - Julio Díaz</title>
     <link rel="icon" href="ico.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Jura:wght@700&display=swap" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <!-- Contenido -->
     <h1 class="titles" id="SobreMi-Title">Sobre mi</h1>
     <div class="contenido">
-        <article class="content-body reveal">
+        <article class="content-body ">
             <img src="images/img-aboutme/Web development.svg" alt="WEB-DEVELOPER">
             <p>Saludos👋🏼, soy Julio Díaz Cortegana y soy aspirante a desarrollador Front-end, en la actualidad estoy estudiando la carrera de Computación e Informática. Una de mis aficiones es aprender a de crear y diseñar páginas web, estoy en constante
                 capacitación de manera autodidacta y tengo buena predisposición para aprender.<br>¡Bienvenido a mi portafolio y gracias por pasarte por aquí!</p>
@@ -48,22 +48,22 @@
     <!-- Tecnolo -->
     <div>
         <h1 class="titles" id="tecno">Tecnologías</h1>
-        <article class="tecno-body reveal">
-            <div class="html"><img src="images/img-tecno/HTML.webp" alt="HTML"></div>
-            <div class="css"><img src="images/img-tecno/CSS.webp" alt="CSS"></div>
-            <div class="js"><img src="images/img-tecno/JS.webp" alt="JS"></div>
-            <div class="sass"><img src="images/img-tecno/SASS.webp" alt="SASS"></div>
-            <div class="react"><img src="images/img-tecno/React.webp" alt="REACT"></div>
-            <div class="bootstrap"><img src="images/img-tecno/Bootstrap.webp" alt="BOOTSTRAP"></div>
-            <div class="git"><img src="images/img-tecno/GIT.webp" alt="GIT"></div>
+        <article class="tecno-body">
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="50" class="html"><img src="images/img-tecno/HTML.webp" alt="HTML"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" class="css"><img src="images/img-tecno/CSS.webp" alt="CSS"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" class="js"><img src="images/img-tecno/JS.webp" alt="JS"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" class="sass"><img src="images/img-tecno/SASS.webp" alt="SASS"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" class="react"><img src="images/img-tecno/React.webp" alt="REACT"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" class="bootstrap"><img src="images/img-tecno/Bootstrap.webp" alt="BOOTSTRAP"></div>
+            <div  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" class="git"><img src="images/img-tecno/GIT.webp" alt="GIT"></div>
         </article>
     </div>
     <!-- Tecnolo  -->
     <!-- Proyects  -->
     <h1 class="titles" id="SobreMi-Proyectos">Proyectos</h1>
     <div class="proyects">
-        <div class="container reveal">
-            <div class="card">
+        <div class="container">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="imgs"><img src="images/img-proyects/Pokeball.webp" alt="PokeDex"></div>
                 <div class="content">
                     <h2>PokeDex</h2>
@@ -74,7 +74,7 @@
                     <a href="https://github.com/jdiazc2000/PokeDex" target="_blank"><img src="images/img-proyects/Github.webp" alt="PokeApi-Github"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="imgs"><img src="images/img-proyects/Pokeball.webp" alt="PokeDex2"></div>
                 <div class="content">
                     <h2>PokeDex</h2>
@@ -85,7 +85,7 @@
                     <a href="https://github.com/jdiazc2000/PokeDex" target="_blank"><img src="images/img-proyects/Github.webp" alt="PokeApi-Github"></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <div class="imgs"><img src="images/img-proyects/Pokeball.webp" alt="PokeDex3"></div>
                 <div class="content">
                     <h2>PokeDex</h2>
@@ -101,7 +101,7 @@
     <!-- Proyects  -->
     <!-- Contact -->
     <h1 class="titles" id="Contac-Title">Contacto</h1>
-    <div class="contact reveal">
+    <div class="contact" data-aos="zoom-in" data-aos-duration="1000">
         <div class="contact-wrapper">
             <div class="contact-form">
                 <form id="contacto" action="https://formspree.io/f/xpzbqljj" method="POST">
@@ -162,16 +162,11 @@
             })
         })
     </script>
-    <script type="text/javascript">
-        function reveal() {
-            for (var e = document.querySelectorAll(".reveal"), t = 0; t < e.length; t++) {
-                var n = window.innerHeight,
-                    i = e[t].getBoundingClientRect().top,
-                    l = 10;
-                i < n - l ? e[t].classList.add("active") : e[t].classList.remove("active")
-            }
-        }
-        window.addEventListener("scroll", reveal)
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true
+        });
     </script>
     <script src="https://kit.fontawesome.com/a555f75e92.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

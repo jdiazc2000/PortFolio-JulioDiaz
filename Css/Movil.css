@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+@media (max-width:524px) {
     .hero .texts h1 {
         font-size: 60px
     }
@@ -41,13 +41,6 @@
 }
 
 @media (max-width:623px) {
-    .hero .texts h1 {
-        left: 58%
-    }
-    .hero .texts h2 {
-        left: 56%;
-        top: 61%
-    }
     .menuicon {
         transition: transform .4s ease-in-out
     }
@@ -132,10 +125,6 @@
     }
     .hero {
         top: 1px
-    }
-    .hero .texts h2 {
-        left: 56%;
-        top: 65%
     }
 }
 

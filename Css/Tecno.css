@@ -39,6 +39,7 @@
 }
 
 .tecno-body .html:hover {
+    transition: 0.5s ease-in;
     border: solid #f16529;
     box-shadow: 5px 5px 20px #f16529
 }
@@ -49,6 +50,7 @@
 }
 
 .tecno-body .css:hover {
+    transition: 0.5s ease-in;
     border: solid #1572b6;
     box-shadow: 5px 5px 20px #1572b6
 }
@@ -59,6 +61,7 @@
 }
 
 .tecno-body .js:hover {
+    transition: 0.5s ease-in;
     border: solid #e4bd00;
     box-shadow: 5px 5px 20px #e4bd00
 }
@@ -69,6 +72,7 @@
 }
 
 .tecno-body .sass:hover {
+    transition: 0.5s ease-in;
     border: solid #cd6799;
     box-shadow: 5px 5px 20px #cd6799
 }
@@ -79,6 +83,7 @@
 }
 
 .tecno-body .react:hover {
+    transition: 0.5s ease-in;
     border: solid #04d7f7;
     box-shadow: 5px 5px 20px #04d7f7
 }
@@ -89,6 +94,7 @@
 }
 
 .tecno-body .bootstrap:hover {
+    transition: 0.5s ease-in;
     border: solid #7952b3;
     box-shadow: 5px 5px 20px #7952b3
 }
@@ -99,6 +105,7 @@
 }
 
 .tecno-body .git:hover {
+    transition: 0.5s ease-in;
     border: solid #ee5132;
     box-shadow: 5px 5px 20px #ee5132
 }

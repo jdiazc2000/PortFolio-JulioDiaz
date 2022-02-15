@@ -1,1 +1,98 @@
-.hero{height:100vh;width:100%;top:0;position:relative;z-index:-1;background-color:#121741}.parallax-img{position:absolute;top:0;left:0;height:100%;width:100%}.parallax-img:nth-child(1){background:url(../images/Superior.webp) no-repeat bottom;background-size:cover;width:100%;height:100%}.parallax-img:nth-child(2){background:url(../images/Inferior.webp) no-repeat bottom;background-size:cover;height:100%}.texts .title{position:absolute;top:42%;left:54%;transform:translate(-58%,-30%);letter-spacing:.14cm;font-size:80px;color:#fff;text-transform:uppercase;text-align:center}.texts .subtitle{position:absolute;left:52%;top:60%;padding-top:30px;transform:translate(-58%,-30%);letter-spacing:.14cm;font-size:30px;color:#fff;text-transform:uppercase;text-align:center}@media (max-height:632px){.texts .subtitle{top:63%}}@media (max-height:504px){.texts .subtitle{top:66%}}.subtitle,.texts,.title{animation:fadein 10s;-moz-animation:fadein 2s;-webkit-animation:fadein 2s;-o-animation:fadein 2s}@keyframes fadein{from{opacity:0}to{opacity:1}}@-moz-keyframes fadein{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}@-o-keyframes fadein{from{opacity:0}to{opacity:1}}
+.hero {
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  position: relative;
+  z-index: -1;
+  background-color: #121741;
+}
+.parallax-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.parallax-img:nth-child(1) {
+  background: url(../images/Superior.webp) no-repeat bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.parallax-img:nth-child(2) {
+  background: url(../images/Inferior.webp) no-repeat bottom;
+  background-size: cover;
+  height: 100%;
+}
+.texts .title {
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  letter-spacing: 0.20cm;
+  font-size: 80px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.texts .subtitle {
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  padding-top: 30px;
+  letter-spacing: 0.20cm;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-height: 632px) {
+  .texts .subtitle {
+    top: 63%;
+  }
+}
+@media (max-height: 504px) {
+  .texts .subtitle {
+    top: 66%;
+  }
+}
+.subtitle,
+.texts,
+.title {
+  animation: fadein 10s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
