@@ -84,21 +84,18 @@ async function handleSubmit(event) {
 
 
 /* Links Functions */
-const PokedexLink = document.getElementById('Pokedex-link');
-const PokedexLink_GitHub = document.getElementById('Github-Pokedex-link');
-
-PokedexLink.addEventListener('click', function(){
+function PokeLink(){
     event.preventDefault();
     if(confirm('¿Deseas ser redireccionado al Pokédex?'))
     {
         window.open("https://pokedex-juliodiaz.netlify.app/");
     }
-})
+}
 
-PokedexLink_GitHub.addEventListener('click', function(){
+function PokeLinkGit(){
     event.preventDefault();
     if(confirm('¿Deseas ser redireccionado al repositorio del Pokédex?'))
     {
         window.open("https://github.com/jdiazc2000/PokeDex");
     }
-})
+}
