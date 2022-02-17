@@ -91,9 +91,6 @@ function PokeLink(){
         showDenyButton: true,
         confirmButtonText: 'Si',
         denyButtonText: `No`,
-        imageUrl: 'images/img-proyects/Pokeball.webp',
-        imageWidth: 225,
-        imageHeight: 175,
       }).then((result) => {
         if (result.isConfirmed) {
             window.open("https://pokedex-juliodiaz.netlify.app/");
@@ -108,9 +105,6 @@ function PokeLinkGit(){
         showDenyButton: true,
         confirmButtonText: 'SI',
         denyButtonText: `NO`,
-        imageUrl: 'images/img-proyects/GitHub-Logo.png',
-        imageWidth: 275,
-        imageHeight: 150,
       }).then((result) => {
         if (result.isConfirmed) {
             window.open("https://github.com/jdiazc2000/PokeDex");
