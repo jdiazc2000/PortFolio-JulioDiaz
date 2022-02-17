@@ -86,16 +86,41 @@ async function handleSubmit(event) {
 /* Links Functions */
 function PokeLink(){
     event.preventDefault();
-    if(confirm('¿Deseas ser redireccionado al Pokédex?'))
-    {
-        window.open("https://pokedex-juliodiaz.netlify.app/");
-    }
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al Pokédex?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+        imageUrl: 'images/img-proyects/Pokeball.webp',
+        imageWidth: 225,
+        imageHeight: 175,
+      }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            window.open("https://pokedex-juliodiaz.netlify.app/");
+        } 
+      })
 }
 
 function PokeLinkGit(){
     event.preventDefault();
+    /*
     if(confirm('¿Deseas ser redireccionado al repositorio del Pokédex?'))
     {
         window.open("https://github.com/jdiazc2000/PokeDex");
-    }
+    }*/
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio del Pokédex?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+        imageUrl: 'images/img-proyects/GitHub-Logo.png',
+        imageWidth: 275,
+        imageHeight: 150,
+      }).then((result) => {
+        /* Read more about isConfirmed, isDenied below */
+        if (result.isConfirmed) {
+            window.open("https://github.com/jdiazc2000/PokeDex");
+        } 
+      })
 }
