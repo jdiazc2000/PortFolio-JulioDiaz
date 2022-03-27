@@ -13,6 +13,7 @@
   height: 100%;
   width: 100%;
 }
+
 .parallax-img:nth-child(1) {
   background: url(../images/Superior.webp) no-repeat bottom;
   background-size: cover;
@@ -24,6 +25,7 @@
   background-size: cover;
   height: 100%;
 }
+
 .texts .title {
   width: 100%;
   position: absolute;

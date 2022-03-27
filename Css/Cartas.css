@@ -11,6 +11,7 @@
     width: 350px;
     position: relative;
     border: solid #fff;
+    height: 262px;
 }
 
 .ui-card:hover,
@@ -33,11 +34,9 @@
     text-align: center;
     color: white;
     font-size: 18px;
-}
-
-.ui-card .text {
     padding-top: 25px;
 }
+
 
 .ui-card .text h2{
     font-weight: 700;
@@ -68,6 +67,10 @@
     transform: translateY(0px);
 }
 
+.ui-card:nth-child(2) .text p{
+    padding-bottom: 20px;
+}
+
 .ui-card:hover .text{
     background-color: rgba(2, 2, 2, 0.329);
     transform: translateY(0px);
@@ -96,15 +99,10 @@
     }
 }
 
-@media (max-width: 390px){
-    .ui-card{
-        width: 100%;
-    }
-
+@media (max-width: 370px){
     .ui-card .text{
         padding-top: 0px;
     }
-
 }
 
 
@@ -113,6 +111,11 @@
         height: 100%;
     }
 
+    .ui-card:nth-child(2) .text p{
+        padding-bottom: 0px;
+    }
+    
+
     .ui-card .text h2{
         font-size: 30px;
         margin: 0;
@@ -120,6 +123,7 @@
 
     .ui-card{
         height: 235px;
+        width: 100%;
     }
 }
 
@@ -128,4 +132,6 @@
     .ui-card{
         height: 260px;
     }
+
+    
 }

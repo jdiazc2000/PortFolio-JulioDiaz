@@ -83,7 +83,7 @@ async function handleSubmit(event) {
 }
 
 
-/* Links Functions */
+/* Poke Links Functions */
 function PokeLink(){
     event.preventDefault();
     Swal.fire({
@@ -108,6 +108,40 @@ function PokeLinkGit(){
       }).then((result) => {
         if (result.isConfirmed) {
             window.open("https://github.com/jdiazc2000/PokeDex");
+        } 
+      })
+}
+
+
+/* Woola Functions */
+function WoolaLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Woola Commerce?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://woola-commerce-juliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function WoolaLinkGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Wolla Commerce?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire(
+                'Error',
+                'El repositorio se publicará al terminar el desarrollo.',
+                'error'
+            )
         } 
       })
 }
