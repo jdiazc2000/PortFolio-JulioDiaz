@@ -41,7 +41,10 @@
 .tecno-body .html:hover {
     transition: 0.3s linear;
     border: solid #f16529;
-    box-shadow: 5px 5px 20px #f16529
+    box-shadow: 5px 5px 20px #f16529;
+
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .css img {
@@ -52,7 +55,10 @@
 .tecno-body .css:hover {
     transition: 0.3s linear;
     border: solid #1572b6;
-    box-shadow: 5px 5px 20px #1572b6
+    box-shadow: 5px 5px 20px #1572b6;
+
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .js img {
@@ -63,7 +69,10 @@
 .tecno-body .js:hover {
     transition: 0.3s linear;
     border: solid #e4bd00;
-    box-shadow: 5px 5px 20px #e4bd00
+    box-shadow: 5px 5px 20px #e4bd00;
+
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .sass img {
@@ -74,7 +83,10 @@
 .tecno-body .sass:hover {
     transition: 0.3s linear;
     border: solid #cd6799;
-    box-shadow: 5px 5px 20px #cd6799
+    box-shadow: 5px 5px 20px #cd6799;
+
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .react img {
@@ -85,7 +97,10 @@
 .tecno-body .react:hover {
     transition: 0.3s linear;
     border: solid #04d7f7;
-    box-shadow: 5px 5px 20px #04d7f7
+    box-shadow: 5px 5px 20px #04d7f7;
+     
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .bootstrap img {
@@ -96,7 +111,10 @@
 .tecno-body .bootstrap:hover {
     transition: 0.3s linear;
     border: solid #7952b3;
-    box-shadow: 5px 5px 20px #7952b3
+    box-shadow: 5px 5px 20px #7952b3;
+     
+    transition: transform .2s ease;
+    transform: translate(0, -5px);
 }
 
 .tecno-body .git img {
@@ -105,7 +123,49 @@
 }
 
 .tecno-body .git:hover {
-    transition: 0.3s linear;
     border: solid #ee5132;
-    box-shadow: 5px 5px 20px #ee5132
+    box-shadow: 5px 5px 20px #ee5132; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
 }
+
+.tecno-body .npm img {
+    height: 100px;
+    width: 100px
+}
+
+.tecno-body .npm:hover {
+    border: solid #eb3534;
+    box-shadow: 5px 5px 20px #eb3534; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
+.tecno-body .visualstudio img {
+    height: 100px;
+    width: 100px
+}
+
+.tecno-body .visualstudio:hover {
+    border: solid #0093da;
+    box-shadow: 5px 5px 20px #0093da; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
+.tecno-body .react-router img {
+    height: 100px;
+    width: 100px
+}
+
+.tecno-body .react-router:hover {
+    border: solid #f54553;
+    box-shadow: 5px 5px 20px #f54553; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
