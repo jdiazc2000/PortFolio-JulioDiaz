@@ -116,11 +116,22 @@ nav img {
     min-width: 300px;
     border-radius: 30px;
     filter: brightness(1.1);
+    margin-bottom: 15px;
 }
 
 .contenido .content-body p {
-    font-size: 32px;
-    padding-bottom: 50px
+    font-size: 30px;
+    margin-bottom: 30px
+}
+
+.contenido .content-body a{
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px 5px;;
 }
 
 .reveal {
