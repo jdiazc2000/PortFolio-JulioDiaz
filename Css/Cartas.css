@@ -93,6 +93,10 @@
     opacity: 1;
 }
 
+.ui-card:hover:nth-child(2) .text p{
+    padding-top: 20px;
+}
+
 @media (max-width: 1360px){
     .proyects{
         display: flex;
