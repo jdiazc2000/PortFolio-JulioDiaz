@@ -131,17 +131,14 @@ function WoolaLink(){
 function WoolaLinkGit(){
     event.preventDefault();
     Swal.fire({
-        title: '¿Deseas ser redireccionado al repositorio de Wolla Commerce?',
+        title: '¿Deseas ser redireccionado al repositorio de Woola Commerce?',
         showDenyButton: true,
         confirmButtonText: 'SI',
         denyButtonText: `NO`,
       }).then((result) => {
         if (result.isConfirmed) {
-            Swal.fire(
-                'Error',
-                'El repositorio se publicará al terminar el desarrollo.',
-                'error'
-            )
+            window.open("https://github.com/jdiazc2000/Woola-Commerce");
+            
         } 
       })
 }
