@@ -61,10 +61,7 @@
 .subtitle,
 .texts,
 .title {
-  animation: fadein 10s;
-  -moz-animation: fadein 2s;
-  -webkit-animation: fadein 2s;
-  -o-animation: fadein 2s;
+  animation: fadein 2s;
 }
 @keyframes fadein {
   from {

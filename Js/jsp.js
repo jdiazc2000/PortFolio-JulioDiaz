@@ -41,9 +41,9 @@ $form.addEventListener('submit', handleSubmit)
 async function handleSubmit(event) {
     event.preventDefault()
     button.classList.toggle("button_loading");
-    button.style.backgroundColor = 'rgb(207, 64, 64)';
-    button.style.color = 'white';
-    button.style.border = 'solid white';
+    button.style.backgroundColor = 'white';
+    button.style.color = 'black';
+    button.style.border = 'solid black 3px';
     button.style.boxShadow = '0px 1px 20px rgba(255, 255, 255, 0.8)';
     button.style.transition = '.2s ease-in-out';
     const form = new FormData(this)

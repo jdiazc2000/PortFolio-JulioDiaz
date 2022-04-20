@@ -17,7 +17,6 @@
 .ui-card:hover,
 .ui-card:focus{
     box-shadow: 0 1px 10px rgba(255, 255, 255, 0.8);
-    transition: 0,1s linear;
 }
 
 .ui-card img{
@@ -35,7 +34,7 @@
     text-align: center;
     color: white;
     font-size: 18px;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 
@@ -43,19 +42,16 @@
     font-weight: 700;
     font-size: 32px;
     margin: 0 0 20px;
-    transform: translateY(30px);
     opacity: 0;
     transition: all 0.3s ease-out;
 }
 
 .ui-card .text p{
-    transform: translateY(30px);
     opacity: 0;
     transition: all 0.3s ease-out;
 }
 
 .ui-card .text a img{
-    transform: translateY(15px);
     opacity: 0;
     transition: all 0.3s ease-out;
     color: white;
@@ -65,11 +61,11 @@
 
 .ui-card .text a img:hover{
     height: 50px;
-    transform: translateY(0px);
 }
 
 .ui-card:nth-child(2) .text p{
-    padding-bottom: 20px;
+    padding: 5px;
+    padding-bottom: 40px;
 }
 
 .ui-card:hover .text{
@@ -93,9 +89,6 @@
     opacity: 1;
 }
 
-.ui-card:hover:nth-child(2) .text p{
-    padding-top: 20px;
-}
 
 @media (max-width: 1360px){
     .proyects{
@@ -104,18 +97,22 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-
     }
 }
 
-@media (max-width: 370px){
+@media (max-width: 385px){
     .ui-card .text{
         padding-top: 0px;
     }
 }
 
 
-@media (max-width: 370px){
+@media (max-width: 410px){
+
+    .ui-card .project_img{
+        width: 100%;
+    }
+
     .ui-card img{
         height: 100%;
     }

@@ -1,5 +1,6 @@
 p label {
-    color: #fff
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .info {
@@ -8,14 +9,6 @@ p label {
     padding-top: 30px
 }
 
-#Contac-Title {
-    padding-bottom: 17px
-}
-
-.logo {
-    text-align: center;
-    font-size: 3em
-}
 
 .contact {
     max-width: 1056px;
@@ -25,12 +18,13 @@ p label {
     background-color: rgba(38, 38, 38, 255);
     display: grid;
     grid-template-columns: 2fr 1fr;
-    border-radius: 10px;
+    border-radius: 1px;
     border: solid #fff
 }
 
 form input {
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .contact:hover {
@@ -91,10 +85,10 @@ form input {
     position: relative
 }
 
-.contact-form form button:hover {
-    background-color: #cf4040;
-    color: #fff;
-    border: solid #fff;
+.contact-form > form button:hover {
+    background-color: white;
+    color: black;
+    border: solid black 3px;
     box-shadow: 0 1px 20px rgba(255, 255, 255, .8);
     transition: .2s ease-in-out
 }
@@ -115,7 +109,7 @@ form input {
     bottom: 0;
     margin: auto;
     border: 5px solid transparent;
-    border-top-color: #fff;
+    border-top-color: black;
     border-radius: 50px;
     animation: button_loading_spinner 1s ease infinite
 }
@@ -134,16 +128,23 @@ form input {
 .info ul {
     text-align: left;
     margin: 0 0 1em 0;
-    font-size: 19px
+    font-size: 19px;
 }
 
 .info ul {
     list-style: none;
 }
 
+.info h4{
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
 .info ul li {
     padding: .3em
 }
+
+
 
 @media(max-width:404px) {
     .info ul li {
