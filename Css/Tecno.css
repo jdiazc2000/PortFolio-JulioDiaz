@@ -169,3 +169,16 @@
     transform: translate(0, -5px);
 }
 
+.tecno-body .react-hook-form img {
+    height: 100px;
+    width: 145px;
+}
+
+.tecno-body .react-hook-form:hover {
+    border: solid #ec5990;
+    box-shadow: 5px 5px 20px #ec5990; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
