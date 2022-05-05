@@ -43,8 +43,7 @@ async function handleSubmit(event) {
     button.classList.toggle("button_loading");
     button.style.backgroundColor = 'white';
     button.style.color = 'black';
-    button.style.border = 'solid black 3px';
-    button.style.boxShadow = '0px 1px 20px rgba(255, 255, 255, 0.8)';
+    button.style.boxShadow = '0 1px 20px rgba(255, 255, 255, .8)';
     button.style.transition = '.2s ease-in-out';
     const form = new FormData(this)
     const response = await fetch(this.action, {
@@ -64,7 +63,6 @@ async function handleSubmit(event) {
         )
         button.style.backgroundColor = '';
         button.style.color = '';
-        button.style.border = '';
         button.style.boxShadow = '';
         button.style.transition = '.2s ease-in-out';
     } else {
@@ -76,7 +74,6 @@ async function handleSubmit(event) {
         )
         button.style.backgroundColor = '';
         button.style.color = '';
-        button.style.border = '';
         button.style.boxShadow = '';
         button.style.transition = '.2s ease-in-out';
     }
