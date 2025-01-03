@@ -7,12 +7,23 @@
     margin: 0 auto;
 }
 
-.ui-card{
+.ui-card {
     width: 349px;
+    height: 262px;
     position: relative;
     border: solid #fff;
-    height: 262px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    place-content: center; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden;
+    padding: 10px;
 }
+
 
 .ui-card:hover,
 .ui-card:focus{
