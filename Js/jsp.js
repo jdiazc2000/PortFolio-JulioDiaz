@@ -139,3 +139,184 @@ function WoolaLinkGit(){
         } 
       })
 }
+
+/* ControlClientes Functions */
+function ControlClientesLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Control de clientes?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://control-de-clientes-juliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function ControlClientesGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Control de clientes?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://github.com/jdiazc2000/ControlDeClientes");
+            
+        } 
+      })
+}
+
+
+/* SistemaDePresupuestos Functions */
+function SistemaDePresupuestosLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Sistema de presupuestos?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://sistemadepresupuestojuliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function SistemaDePresupuestosGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Sistema de presupuestos?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://github.com/jdiazc2000/SistemaDePresupuesto-Angular");
+            
+        } 
+      })
+}
+
+/* Rick&Morty Functions */
+function RickMortyLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Buscador de personajes de Rick & Morty?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://rickandmortyapi-juliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function RickMortyGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Buscador de personajes de Rick & Morty?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://rickandmortyapi-juliodiaz.netlify.app/");
+            
+        } 
+      })
+}
+
+/* RelojDigital Functions */
+function RelojDigitalLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Reloj digital?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://relojdigital-juliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function RelojDigitalGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Reloj digital?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://github.com/jdiazc2000/Reloj-Digital");
+            
+        } 
+      })
+}
+
+/* To'Do Functions */
+function ToDoLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a ToDo list?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://todolist-juliodiaz.netlify.app/");
+        } 
+      })
+}
+
+function ToDoGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de ToDo list?',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://github.com/jdiazc2000/To-Do-List");
+            
+        } 
+      })
+}
+
+/* Firebase Crud Functions */
+function FirebaseCrudLink(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado a Crud con Firebase?',
+        showDenyButton: true,
+        confirmButtonText: 'Si',
+        denyButtonText: `No`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://crud-firebase-juliodiaz.netlify.app");
+        } 
+      })
+}
+
+function FirebaseCrudGit(){
+    event.preventDefault();
+    Swal.fire({
+        title: '¿Deseas ser redireccionado al repositorio de Crud con Firebase',
+        showDenyButton: true,
+        confirmButtonText: 'SI',
+        denyButtonText: `NO`,
+      }).then((result) => {
+        if (result.isConfirmed) {
+            window.open("https://crud-firebase-juliodiaz.netlify.app");
+            
+        } 
+      })
+}

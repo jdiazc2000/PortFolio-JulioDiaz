@@ -182,3 +182,41 @@
     transform: translate(0, -5px);
 }
 
+.tecno-body .angular img {
+    height: 100px;
+    width: 105px;
+}
+
+.tecno-body .angular:hover{
+    border: solid #ff0000;
+    box-shadow: 5px 5px 20px #ff0000; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
+.tecno-body .typescript img {
+    height: 100px;
+    width: 105px;
+}
+
+.tecno-body .typescript:hover{
+    border: solid #1572b6;
+    box-shadow: 5px 5px 20px #1572b6; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
+
+.tecno-body .figma img {
+    height: 100px;
+    width: 100px;
+}
+
+.tecno-body .figma:hover {
+    border: solid #ee5132;
+    box-shadow: 5px 5px 20px #ee5132; 
+    
+    transition: transform 0.5s ease;
+    transform: translate(0, -5px);
+}
